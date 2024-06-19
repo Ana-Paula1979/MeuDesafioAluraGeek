@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/coracao.png" alt="Logo AluraGeek">
+        <h3 class="menu__title">AluraGeek</h3>
+    </header>
+
+
+    <main class="main">
+        <div class="product-container">
+            <div class="titulo-produtos">
+                <h3>MEUS PRODUTOS:</h3>
+            </div>
+            <div class="product-section">
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/boneco.png" alt="boneco geek"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Boneco Star Wars</h3>
+                        <p class="product__price">R$ 49,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/caneca Homem Aranha.png" alt="caneca Homem Aranha">
+                    </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Caneca Homem Aranha</h3>
+                        <p class="product__price">R$ 19,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/caneca Iron Man.png" alt="caneca Iron Man"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Caneca Iron Man</h3>
+                        <p class="product__price">R$ 19,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/caneca Mario e Luigi.png" alt="caneca Mario">
+                    </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Caneca Mario</h3>
+                        <p class="product__price">R$ 19,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/copo.png" alt="Caneca Star Wars"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Caneca Star Wars</h3>
+                        <p class="product__price">R$ 9,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/camiseta mario.jfif" alt="Camiseta Mario Bros"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">camiseta Mario</h3>
+                        <p class="product__price">R$ 79,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/camiseta.png"
+                            alt="Camiseta o melhor Pai das Galaxias"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">camiseta</h3>
+                        <p class="product__price">R$ 59,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/chaveiro stitch.jfif" alt="Chaveiro stitch"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Chaveiro Stitch</h3>
+                        <p class="product__price">R$ 15,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__image"> <img src="assets/gameboy.png" alt="Game"> </div>
+                    <div class="product__info">
+                        <h3 class="product__name">Video Game</h3>
+                        <p class="product__price">R$ 69,99</p>
+                        <button class="product__delete">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FORMULARIO-->
+        <form class="form-container" data-formulario>
+            <fieldset>
+                <h3>ADICIONAR PRODUTO:</h3>
+                <div class="formulario__campo">
+
+                    <div class="formulario__campo">
+                        <input type="text" name="nome" placeholder="Nome..." required id="nome" data-nome>
+                    </div>
+                    <div class="formulario__campo">
+                        <input type="text" name="valor" placeholder="Valor..." id="valor" required data-valor>
+                    </div>
+                    <div class="formulario__campo">
+                        <input type="text" name="imagem" placeholder="Imagem..." required data-imagem>
+                    </div>
+                    <div class="formulario__campo">
+                        <button class="btn__guardar" type="submit">GUARDAR</button>
+                        <button class="btn__limpar" type="reset">LIMPAR</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="footer__rodape">
+            <img src="assets/coracaoAluraGeek.png">
+            <p>Desenvolvido por Ana Paula
+            </p>
+            <p>2024</p>
+        </div>
+    </footer>
+
+    <script src="../js/criarProduto.js" type="module"></script>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/removeProduto.js" type="module"></script>
+    <script src="./js/exibirProdutos.js" type="module"></script>
+</body>
+
+</html>

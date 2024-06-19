@@ -1,0 +1,59 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "camiseta",
+      "imagem": "https://www.arcadegeek.com.br/camiseta-geek-dia-dos-pais-the-best-dad-in-the-galaxy-star-372-2023-07-19-21-38-12",
+      "alt": "foto camiseta",
+      "quantidade": 20,
+      "preco": 160.20,
+      "categoria": "vestuário"
+    },
+    {
+      "id": 2,
+      "nome": "canecaMarioLuigi",
+      "imagem": "https://www.arcadegeek.com.br/wl0if5nah-caneca-gamer-geek-retro-mario-076",
+      "alt": "foto caneca",
+      "quantidade": 15,
+      "preco": 39.90,
+      "categoria": "utensílios"
+    },
+    {
+      "id": 3,
+      "nome": "boneco",
+      "imagem": "https://maxrender.com.br/artigo/tend%C3%AAncias-no-mundo-geek-para-esse-ano",
+      "alt": "foto do copo stormtrooper",
+      "quantidade": 25,
+      "preco": 60,
+      "categoria": "enfeite"
+    },
+    {
+      "id": 4,
+      "nome": "caneca Super Herois",
+      "imagem": "https://www.elo7.com.br/12-artes-caneca-herois-pais-geek-editavel-corel-draw-png/dp/1BE26D5",
+      "alt": "foto do caneca",
+      "quantidade": 15,
+      "preco": 19.97,
+      "categoria": "canecas"
+    },
+    {
+      "id": 5,
+      "nome": "copo",
+      "imagem": "https://www.amazon.com.br/Caneca-Geek-Game-Love-You/dp/B077M9NDKV",
+      "alt": "foto do copo stormtrooper",
+      "quantidade": 5,
+      "preco": 15.00,
+      "categoria": "utensílios"
+    },
+    {
+      "id": 6,
+      "nome": "GameBoy",
+      "imagem": "https://pt.pngtree.com/freepng/game-boy-with-you_7613410.html",
+      "alt": "foto gameboy",
+      "quantidade": 25,
+      "preco": 60.99,
+      "categoria": "jogos"
+    }
+       
+  ]
+}
